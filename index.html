@@ -8,108 +8,115 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <div class="top-controls">
-    <i class="fa-solid fa-grip"></i>
-    <i class="fa-solid fa-maximize"></i>
+  
+  <div class="top-controls d-flex">
+    <div class="btn">
+      <i class="fa-solid fa-grip"></i>
+      <span>Speaker View</span>
+    </div>
+    <div class="btn">
+      <i class="fa-solid fa-maximize"></i>
+    </div>
   </div>
+
   <main>
     <div class="container">
       <!-- ROW -->
       <div class="row d-flex debug">
         <!-- COL -->
-        <div class="column debug">
+        <div class="column">
           <!-- PERSON -->
           <div class="person debug">
             <img src="https://placebeard.it/600/400" alt="person1">
-            <div class="name debug">
+            <div class="name">
               <i class="fa-solid fa-microphone-slash"></i>
               <span>Pinco Pallo</span>
             </div>
           </div>
         </div>
         
-        <div class="column debug">
+        <div class="column">
           <!-- PERSON -->
           <div class="person debug">
             <img src="https://placebeard.it/600/400" alt="person1">
-            <div class="name debug">
+            <div class="name">
               <i class="fa-solid fa-microphone-slash"></i>
               <span>Pinco Pallo</span>
             </div>
           </div>
         </div>
         
-        <div class="column debug">
+        <div class="column">
           <!-- PERSON -->
           <div class="person debug">
             <img src="https://placebeard.it/600/400" alt="person1">
-            <div class="name debug">
+            <div class="name">
               <i class="fa-solid fa-microphone-slash"></i>
               <span>Pinco Pallo</span>
             </div>
           </div>
         </div>
         
-        <div class="column debug">
+        <div class="column">
           <!-- PERSON -->
           <div class="person debug">
             <img src="https://placebeard.it/600/400" alt="person1">
-            <div class="name debug">
+            <div class="name">
               <i class="fa-solid fa-microphone-slash"></i>
               <span>Pinco Pallo</span>
             </div>
           </div>
         </div>
         
-        <div class="column debug">
+        <div class="column">
           <!-- PERSON -->
           <div class="person debug">
             <img src="https://placebeard.it/600/400" alt="person1">
-            <div class="name debug">
+            <div class="name">
               <i class="fa-solid fa-microphone-slash"></i>
               <span>Pinco Pallo</span>
             </div>
           </div>
         </div>
         
-        <div class="column debug">
+        <div class="column">
           <!-- PERSON -->
           <div class="person debug">
             <img src="https://placebeard.it/600/400" alt="person1">
-            <div class="name debug">
+            <div class="name">
               <i class="fa-solid fa-microphone-slash"></i>
               <span>Pinco Pallo</span>
             </div>
           </div>
         </div>
         
-        <div class="column debug">
+        <div class="column">
           <!-- PERSON -->
           <div class="person debug">
             <img src="https://placebeard.it/600/400" alt="person1">
-            <div class="name debug">
+            <div class="name">
               <i class="fa-solid fa-microphone-slash"></i>
               <span>Pinco Pallo</span>
             </div>
           </div>
         </div>
         
-        <div class="column debug">
+        <div class="column">
           <!-- PERSON -->
           <div class="person debug">
             <img src="https://placebeard.it/600/400" alt="person1">
-            <div class="name debug">
+            <div class="name">
               <i class="fa-solid fa-microphone-slash"></i>
               <span>Pinco Pallo</span>
             </div>
           </div>
         </div>
         
-        <div class="column debug">
+        <div class="column">
           <!-- PERSON -->
           <div class="person debug">
             <img src="https://placebeard.it/600/400" alt="person1">
-            <div class="name debug">
+            <div class="name">
               <i class="fa-solid fa-microphone-slash"></i>
               <span>Pinco Pallo</span>
             </div>
@@ -120,23 +127,54 @@
     </div>
   </main>
   <footer>
-    <div class="controls d-flex debug">
-      <div class="footer-left">
-        <i class="fa-solid fa-microphone"></i>
-        <i class="fa-solid fa-chevron-up"></i>
-        <i class="fa-solid fa-video"></i>
-        <i class="fa-solid fa-chevron-up"></i>
+    <div class="controls d-flex">
+      <div class="footer-left d-flex">
+        <div class="control">
+          <i class="fa-solid fa-microphone"></i>
+          <i class="fa-solid fa-chevron-up"></i>
+          <p class="subtitle">Mute</p>
+        </div>
+        <div class="control">
+          <i class="fa-solid fa-video"></i>
+          <i class="fa-solid fa-chevron-up"></i>
+          <p class="subtitle">Stop Video</p>
+        </div>
       </div>
-      <div class="footer-middle">
-        <i class="fa-solid fa-user-plus"></i>
-        <i class="fa-solid fa-user-group"></i>
-        <i class="fa-solid fa-chart-simple"></i>
-        <i class="fa-solid fa-share-from-square"></i>
-        <i class="fa-solid fa-chevron-up"></i>
-        <i class="fa-solid fa-comment"></i>
-        <i class="fa-solid fa-record-vinyl"></i>
-        <i class="fa-solid fa-table-cells-large"></i>
-        <i class="fa-solid fa-ellipsis"></i>
+      <div class="footer-middle d-flex">
+        <div class="control">
+          <i class="fa-solid fa-user-plus"></i>
+          <p>Invite</p>
+        </div>
+        <div class="control">
+          <i class="fa-solid fa-user-group"></i>
+          <p>Manage Participants</p>
+        </div>
+        <div class="control">
+          <i class="fa-solid fa-chart-simple"></i>
+          <p>Polling</p>
+        </div>
+        <div class="control">
+          <i class="fa-solid fa-share-from-square active"></i>
+          <i class="fa-solid fa-chevron-up"></i>
+          <p>Share Screen</p>
+        </div>
+        <div class="control">
+          <i class="fa-solid fa-comment"></i>
+          <p>Chat</p>
+        </div>
+        <div class="control">
+          <i class="fa-solid fa-record-vinyl"></i>
+          <p>Record</p>
+        </div>
+        <div class="control">
+          <i class="fa-solid fa-table-cells-large"></i>
+          <p>Breakout Rooms</p>
+        </div>
+        <div class="control">
+          <i class="fa-solid fa-ellipsis"></i>
+          <p>More</p>
+        </div>
+
       </div>
       <div class="footer-right">
         <span>End meeting</span>
