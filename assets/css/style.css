@@ -8,22 +8,50 @@
   border: 1px solid white;
 }
 
-/* img{
-  width: 100%;
-} */
+.d-flex{
+  display: flex;
+}
+
+body{
+  color: white;
+}
+
+img{
+  max-width: 100%;
+}
 
 main{
   background-color: black;
   height: calc(100vh - 100px);
+  overflow: auto;
 }
 
 .container{
   width: 98%;
   max-width: 870px;
   margin: 0 auto;
+  padding: 50px 0;
+}
+.container .row{
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.container .row .column{
+  width: calc(100% / 7);
+  padding: 2px;
 }
 
-
+.person{
+  position: relative;
+}
+.person .name {
+  background-color: #69737cec;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 4px;
+}
 
 
 
@@ -35,4 +63,10 @@ main{
 footer{
   background-color: #222222;
   height: 100px;
+}
+
+footer .controls{
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
 }
